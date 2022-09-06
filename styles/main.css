@@ -15,7 +15,7 @@ h3 {
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 6.5rem;
 }
 
 h2 {
@@ -43,9 +43,43 @@ body {
 }
 
 .container {
-  padding: 0;
+  padding: 0 30px;
 }
 
-body {
-  background-color: white;
+.hero {
+  background-image: url("../images/desktop/image-hero.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  padding-top: 45px;
+  position: relative;
+  color: white;
+}
+.hero .container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero .container header .logo {
+  width: 500px;
+}
+.hero .container header .hamburger {
+  width: 60px;
+}
+.hero .container header .logo,
+.hero .container header .hamburger {
+  cursor: pointer;
+}
+.hero .container header nav {
+  display: none;
+}
+.hero .container h1 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  border: 2px solid white;
+  padding: 30px;
+  transform: translateY(-50%);
+  width: calc(100% - 60px);
+  text-align: left;
 }/*# sourceMappingURL=main.css.map */

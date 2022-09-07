@@ -39,7 +39,8 @@
         }
 
         h1 {
-            margin: 0;
+            
+            margin:0;
             position: absolute;
             top: 50%;
             border: 2px solid $white;
@@ -51,3 +52,21 @@
 
     }
 }
+.interactive {
+    padding-top: $xxl;
+    .container {
+        text-align: center;
+        h2 {
+            padding-top: $mid;
+        }
+        .text {
+            padding: 0 $lg;
+        }
+    }
+    img {
+        width: 100%;
+    }
+}
+
+
+    

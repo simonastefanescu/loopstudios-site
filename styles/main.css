@@ -15,7 +15,7 @@ h3 {
 }
 
 h1 {
-  font-size: 6.5rem;
+  font-size: 3.5rem;
 }
 
 h2 {
@@ -82,4 +82,20 @@ body {
   transform: translateY(-50%);
   width: calc(100% - 60px);
   text-align: left;
+}
+
+.interactive {
+  padding-top: 75px;
+}
+.interactive .container {
+  text-align: center;
+}
+.interactive .container h2 {
+  padding-top: 30px;
+}
+.interactive .container .text {
+  padding: 0 45px;
+}
+.interactive img {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

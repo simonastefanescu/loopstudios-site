@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
 html {
   font-size: 15px;
 }
@@ -50,7 +50,7 @@ body {
   background-image: url("../images/desktop/image-hero.jpg");
   background-position: center;
   background-size: cover;
-  height: 40vh;
+  height: 100vh;
   padding-top: 45px;
   position: relative;
   color: white;
@@ -59,12 +59,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.hero .container header .logo {
-  width: 500px;
-}
-.hero .container header .hamburger {
-  width: 60px;
 }
 .hero .container header .logo,
 .hero .container header .hamburger {
@@ -96,6 +90,68 @@ body {
 .interactive .container .text {
   padding: 0 45px;
 }
-.interactive img {
+.interactive .container img {
   width: 100%;
+}
+
+.creations {
+  margin-top: 75px;
+}
+.creations .container h2 {
+  text-align: center;
+}
+.creations .container .article-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.creations .container article {
+  height: 180px;
+  width: 100%;
+  border: 1px solid black;
+  margin-bottom: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.creations .container article h3 {
+  width: 50%;
+  color: white;
+  margin: 0;
+}
+.creations .container article:nth-child(1) {
+  background-image: url(../images/mobile/image-deep-earth.jpg);
+}
+.creations .container article:nth-child(2) {
+  background-image: url(../images/mobile/image-night-arcade.jpg);
+}
+.creations .container article:nth-child(3) {
+  background-image: url(../images/mobile/image-soccer-team.jpg);
+}
+.creations .container article:nth-child(4) {
+  background-image: url(../images/mobile/image-grid.jpg);
+}
+.creations .container article:nth-child(5) {
+  background-image: url(../images/mobile/image-from-above.jpg);
+}
+.creations .container article:nth-child(6) {
+  background-image: url(../images/mobile/image-pocket-borealis.jpg);
+}
+.creations .container article:nth-child(7) {
+  background-image: url(../images/mobile/image-curiosity.jpg);
+}
+.creations .container article:nth-child(8) {
+  background-image: url(../images/mobile/image-fisheye.jpg);
+}
+.creations .container button {
+  background-color: white;
+  border: 1px solid black;
+  padding: 15px 45px;
+  text-transform: uppercase;
+  transition: all 0.3s linear;
+}
+.creations .container button:hover {
+  background-color: black;
+  color: white;
 }/*# sourceMappingURL=main.css.map */

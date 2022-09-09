@@ -80,22 +80,21 @@
             align-items: center;
         }
 
-            article {
-                height: 180px;
-                width: 100%;
-                border: 1px solid black;
-                margin-bottom: $mid;
-                padding: $mid;
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
+        article {
+            height: 180px;
+            width: 100%;
+            margin-bottom: $mid;
+            padding: $mid;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
 
-                h3 {
-                    width: 50%;
-                    color: $white;
-                    margin: 0;
+            h3 {
+                width: 50%;
+                color: $white;
+                margin: 0;
 
-                }
+            }
 
             &:nth-child(1) {
                 background-image: url(../images/mobile/image-deep-earth.jpg);
@@ -131,6 +130,7 @@
             }
 
         }
+
         button {
             background-color: $white;
             border: 1px solid $black;
@@ -143,5 +143,49 @@
                 color: $white;
             }
         }
+    }
+}
+
+.footer {
+    margin-top: $xl;
+    background-color: $black;
+    text-align: center;
+    color: $white;
+    padding: $lg 0;
+
+    .container {
+        text-align: center;
+
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            margin-top: $mid;
+
+            li {
+                margin-bottom: $mid;
+
+            }
+        }
+
+        .social {
+
+
+            ul {
+                display: flex;
+                justify-content: center;
+                padding-top: $baseSpacing;
+
+
+                li {
+                    padding: $baseSpacing;
+                }
+            }
+        }
+
+        p {
+            color: $grey;
+        }
+
     }
 }

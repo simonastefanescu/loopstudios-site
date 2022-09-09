@@ -108,7 +108,6 @@ body {
 .creations .container article {
   height: 180px;
   width: 100%;
-  border: 1px solid black;
   margin-bottom: 30px;
   padding: 30px;
   display: flex;
@@ -154,4 +153,35 @@ body {
 .creations .container button:hover {
   background-color: black;
   color: white;
+}
+
+.footer {
+  margin-top: 60px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 45px 0;
+}
+.footer .container {
+  text-align: center;
+}
+.footer .container ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-top: 30px;
+}
+.footer .container ul li {
+  margin-bottom: 30px;
+}
+.footer .container .social ul {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.footer .container .social ul li {
+  padding: 15px;
+}
+.footer .container p {
+  color: #8c8c8c;
 }/*# sourceMappingURL=main.css.map */

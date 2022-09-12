@@ -78,6 +78,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            
         }
 
         article {
@@ -88,6 +89,7 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
+            background-repeat: no-repeat;
 
             h3 {
                 width: 50%;
@@ -146,46 +148,47 @@
     }
 }
 
-.footer {
+footer {
     margin-top: $xl;
     background-color: $black;
-    text-align: center;
     color: $white;
     padding: $lg 0;
 
     .container {
         text-align: center;
 
-        ul {
-            padding: 0;
-            margin: 0;
-            list-style: none;
-            margin-top: $mid;
+        nav {
+            margin: $mid 0;
 
-            li {
-                margin-bottom: $mid;
+            ul {
+                padding: 0;
+                margin: 0;
+                list-style: none;
 
+                li {
+                    margin-bottom: $baseSpacing;
+                }
             }
         }
 
         .social {
-
+            display: flex;
+            justify-content: center;
 
             ul {
                 display: flex;
-                justify-content: center;
-                padding-top: $baseSpacing;
+                gap: 15px;
+                // justify-content: space-between;
+                // width: 100px;
 
-
-                li {
-                    padding: $baseSpacing;
-                }
+                padding: 0;
+                margin: 0;
+                list-style: none;
             }
         }
 
         p {
             color: $grey;
         }
-
     }
 }

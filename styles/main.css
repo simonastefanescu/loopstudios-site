@@ -113,6 +113,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  background-repeat: no-repeat;
 }
 .creations .container article h3 {
   width: 50%;
@@ -155,33 +156,37 @@ body {
   color: white;
 }
 
-.footer {
+footer {
   margin-top: 60px;
   background-color: black;
-  text-align: center;
   color: white;
   padding: 45px 0;
 }
-.footer .container {
+footer .container {
   text-align: center;
 }
-.footer .container ul {
+footer .container nav {
+  margin: 30px 0;
+}
+footer .container nav ul {
   padding: 0;
   margin: 0;
   list-style: none;
-  margin-top: 30px;
 }
-.footer .container ul li {
-  margin-bottom: 30px;
+footer .container nav ul li {
+  margin-bottom: 15px;
 }
-.footer .container .social ul {
+footer .container .social {
   display: flex;
   justify-content: center;
-  padding-top: 15px;
 }
-.footer .container .social ul li {
-  padding: 15px;
+footer .container .social ul {
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
-.footer .container p {
+footer .container p {
   color: #8c8c8c;
 }/*# sourceMappingURL=main.css.map */
